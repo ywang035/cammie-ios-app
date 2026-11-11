@@ -1,6 +1,6 @@
 # Cammie Privacy Policy
 
-_Last updated: 2026-11-10_
+_Last updated: 2026-11-11_
 
 Cammie is a camera app. It is built to work entirely on your device. This policy explains what the app accesses and what happens to your data.
 
@@ -17,7 +17,7 @@ Cammie is a camera app. It is built to work entirely on your device. This policy
 | **Camera** | To take photos and show the live viewfinder. |
 | **Microphone** | To record sound for Live Photos. Audio is only recorded while a Live Photo is being captured. |
 | **Photo Library (add)** | To save the photos you take to your library. |
-| **Photo Library (read)** | To show your latest photo as a thumbnail and to open the in-app gallery. Cammie only reads the library on your device. |
+| **Photo Library (read)** | To show your latest photo as a thumbnail and to open the in-app gallery. Cammie only reads the photos it took itself, which it keeps in its own album in your library. Reading happens only on your device. |
 | **Location (optional)** | Only if you turn on **Settings › Location › Add location to photos**. Cammie then saves the GPS position where you took each photo in that photo's metadata. Cammie uses location only while the app is open ("While Using the App"). |
 
 Location is **off by default** and Cammie does not ask for it until you turn it on. You can turn it off at any time in Cammie's own Settings (Settings › Location), and you can also change or revoke any permission at any time in **Settings › Cammie** on your iPhone. Declining location does not affect any other feature.
@@ -29,6 +29,10 @@ You can change or revoke any of these at any time in **Settings › Cammie** on 
 Cammie stores your preferences (for example the selected style, Live Photo mode, volume-button behavior, and whether location tagging is on) locally on your device using standard iOS storage. This information never leaves your device. If you delete the app, it is removed.
 
 Photos you take are processed on-device and saved to your photo library. Cammie does not upload them anywhere. Photos may include standard camera metadata such as exposure settings and capture time; Location is added only if you opt in (see above): the position is written into the photo's metadata in your photo library, and it is not stored or sent anywhere else. Be aware that if you share a photo with its metadata, the location goes with it; iOS lets you remove location when sharing. Photos taken from the Lock Screen camera are saved without location. Turning the setting off stops new photos from being tagged but does not remove location from photos you already took.
+
+## Lock Screen and Control Center
+
+If you add Cammie's Lock Screen camera or Control Center button, they open the same on-device camera. They do not collect, transmit, or share anything, and photos taken from the Lock Screen are saved without location.
 
 ## Network and third parties
 
